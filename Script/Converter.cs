@@ -9,7 +9,7 @@ namespace Dkvfx
         #region Editable attributes
 
         [SerializeField] HapPlayer _source = null;
-        [SerializeField] Metadata _metadata = null;
+        [SerializeField] public Metadata _metadata = null;
 
         [SerializeField] public RenderTexture _positionMap = null;
         [SerializeField] public RenderTexture _colorMap = null;
