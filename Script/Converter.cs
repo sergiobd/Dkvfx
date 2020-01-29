@@ -11,8 +11,8 @@ namespace Dkvfx
         [SerializeField] HapPlayer _source = null;
         [SerializeField] Metadata _metadata = null;
 
-        [SerializeField] RenderTexture _positionMap = null;
-        [SerializeField] RenderTexture _colorMap = null;
+        [SerializeField] public RenderTexture _positionMap = null;
+        [SerializeField] public RenderTexture _colorMap = null;
 
         [SerializeField, HideInInspector] Shader _shader = null;
 
